@@ -1,17 +1,21 @@
 {
   "name": "@rbxts/rbx-hooks",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A few ",
   "main": "out/init.lua",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["roblox", "ts", "roblox-ts", "react", "hooks"],
+  "author": "HowManySmall",
+  "license": "MIT",
   "types": "out/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cool-organization/rbx-hooks.git"
+  },
   "files": [
     "out",
     "!**/*.tsbuildinfo"
