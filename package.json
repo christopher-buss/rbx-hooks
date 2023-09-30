@@ -8,7 +8,13 @@
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["roblox", "ts", "roblox-ts", "react", "hooks"],
+  "keywords": [
+    "roblox",
+    "ts",
+    "roblox-ts",
+    "react",
+    "hooks"
+  ],
   "author": "HowManySmall",
   "license": "MIT",
   "types": "out/index.d.ts",
@@ -38,7 +44,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@rbxts/rbx-debug": "^1.0.0",
-    "@rbxts/roact": "npm:@rbxts/react-ts@^0.9.0"
+    "@rbxts/rbx-debug": "^1.0.0"
   }
 }
